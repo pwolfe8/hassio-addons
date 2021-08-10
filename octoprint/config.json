@@ -1,5 +1,5 @@
 {
-    "name": "OctoPrint",
+    "name": "OctoPrint_philipTest",
     "version": "0.4.4",
     "slug": "octoprint",
     "description": "OctoPrint add-on for Home Assistant",
@@ -16,7 +16,9 @@
     },
     "ports_description": {
         "5000/tcp": "WebUI (Not required for Ingress)",
-        "8000/tcp": "mjpg-streamer (could also use WebUI/webcam/)"
+        "8000/tcp": "mjpg-streamer (could also use WebUI/webcam/)",
+        "1883/tcp": "mqtt port",
+        "22/tcp": "ssh port"
     },
     "uart": true,
     "homeassistant": "0.108.0",
